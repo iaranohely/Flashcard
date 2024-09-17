@@ -28,6 +28,7 @@ footer p{
 .cartao__conteudo {
     text-align: center;
     height: 100%;
+    display:flex;
 }
 .cartao__conteudo h3 {
     background-color: tomato;
