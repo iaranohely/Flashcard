@@ -31,7 +31,7 @@ footer p{
     display:flex;
 }
 .cartao__conteudo h3 {
-    background-color: tomato;
+    background-color: #93cafd;
     text-align: left;
     padding: 0.5rem;
     position: absolute;
