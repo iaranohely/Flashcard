@@ -22,7 +22,7 @@ footer p{
 }
 .cartao {
     margin: 1rem;
-    background-color: #12c494;
+    background-color: #07b485;
     height: 20rem;
     flex-grow: 1;
     flex-basis: calc(33% -6rem);
@@ -37,7 +37,7 @@ footer p{
     justify-content: space-between;
 }
 .cartao__conteudo h3 {
-    background-color: #0a785a;
+    background-color: #11c796;
     text-align: left;
     padding: 0.5rem;
     margin: 0.6rem;
