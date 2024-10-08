@@ -2,6 +2,19 @@ body {
     background: url('img/bg-desktop.webp');
     font-family: Sofadi One;
 }
+.cartao:hover .cartao__conteudo {
+    transform: rotateY(180deg);
+}
+.cartao__conteudo__pergunta,
+.cartao__conteudo__resposta {
+    backface-visibility: hidden;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+}
+.cartao__conteudo__resposta {
+    transform: rotateY(180deg);
+}
 footer{
     background-color: black;
     color: white;
@@ -35,6 +48,8 @@ footer p{
     display:flex;
     flex-direction: column;
     justify-content: space-between;
+    transform-style: preserve-3d;
+    transition: transform 300ms ease-in-out;
 }
 .cartao__conteudo h3 {
     background-color: #12af85;
@@ -43,4 +58,10 @@ footer p{
     margin: 0.6rem;
     border-radius: 0.6rem;
     font-size: 1vw;
+    backface-visibility: hidden;
+}
+.cartao__conteudo p {
+    margin-top: 1rem;
+    padding: 2rem;
+    margin-top: 4rem;
 }
